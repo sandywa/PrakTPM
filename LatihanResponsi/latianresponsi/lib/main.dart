@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_flutterlayout/login_statefull.dart';
-
-import 'login_stateless.dart';
+import 'package:latianresponsi/view/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tugas 2 Flutter',
+      title:'Github Data',
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch:Colors.blue,
       ),
-      home: loginStful(),
+      home: home(),
     );
   }
 }
